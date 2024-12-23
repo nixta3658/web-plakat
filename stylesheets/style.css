@@ -1,0 +1,263 @@
+body {
+  background-color: rgb(8, 5, 53);
+}
+
+.image1 {
+  position: absolute;
+  transform: translateX(-50px);
+  margin-top: -80px;
+  margin-left: -100px;
+  transform: scale(0.75);
+  width: 60px;
+  height: 60px;
+}
+
+.image1 {
+  animation-name: stalactite1;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation: stalactite1 1.3s forwards;
+}
+
+@keyframes stalactite1 {
+  0% {
+    margin-top: -800px;
+  }
+  100% {
+    margin-top: -80px;
+  }
+}
+
+.textheading {
+  text-align: right;
+  line-height: 90%;
+  margin-top: 35px;
+  margin-right: 70px;
+  font-size: 135px;
+  color: white;
+  font-family: exterior-light;
+  -webkit-text-stroke: 2px #ffffff;
+}
+
+.stalactite2 {
+  position: absolute;
+  transform: translateX(500px);
+  margin-top: 680px;
+  margin-left: 900px;
+  transform: scale(0.55);
+  width: 60px;
+  height: 60px;
+}
+
+.stalactite2 {
+  animation-name: stalactite22;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation: stalactite22 1.3s forwards;
+}
+
+@keyframes stalactite22 {
+  0% {
+    margin-left: 800px;
+  }
+  100% {
+    margin-left: 970px;
+  }
+}
+
+.puddle {
+  position: absolute;
+  margin-top: 1195px;
+  margin-left: 35px;
+  transform: scale(0.35);
+  width: 70px;
+  height: 30px;
+  opacity: 60%;
+}
+
+.rain {
+  position: absolute;
+  margin-top: 757px;
+  margin-left: 90px;
+  transform: scale(0.35);
+  width: 60px;
+  height: 60px;
+}
+
+.rain {
+  animation: rain11 1.2s infinite;
+}
+
+@keyframes rain11 {
+  0% {
+    opacity: 0%;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+.portal {
+  position: absolute;
+  margin-top: 1350px;
+  margin-left: 250px;
+  width: 60px;
+  height: 60px;
+}
+
+.portal {
+  animation: breath 3s infinite;
+}
+
+@keyframes breath {
+  0% {
+    transform: scale(1);
+    opacity: 50%;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 50%;
+  }
+}
+
+.flight {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  margin-top: 2400px;
+  font-size: 60px;
+  overflow-x: hidden;
+  color: white;
+  font-family: exterior-light;
+  animation: movesight 6s linear infinite;
+}
+
+@keyframes movesight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100px);
+  }
+}
+
+.flight:hover {
+  animation-play-state: paused;
+}
+
+.hands1 {
+  position: absolute;
+  margin-top: 2600px;
+  margin-left: 280px;
+  transform: scale(0.8);
+  width: 60px;
+  height: 60px;
+}
+
+.hands1 {
+  animation: float1 2s infinite;
+}
+
+@keyframes float1 {
+  0% {
+    opacity: 50%;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 50%;
+  }
+}
+
+.hands1:hover {
+  animation-play-state: paused;
+}
+
+.hands2 {
+  position: absolute;
+  margin-top: 2950px;
+  margin-left: 70px;
+  transform: scale(0.8);
+  width: 60px;
+  height: 60px;
+}
+
+.hands2 {
+  animation: float1 2s infinite;
+}
+
+.hands3 {
+  position: absolute;
+  margin-top: 2950px;
+  margin-left: 1080px;
+  transform: scale(0.8);
+  width: 60px;
+  height: 60px;
+}
+
+.hands3 {
+  animation: float1 2s infinite;
+}
+
+.fire {
+  position: absolute;
+  margin-top: 3000px;
+  margin-left: 575px;
+  transform: scale(0.65);
+  transform-origin: bottom center;
+  width: 60px;
+  height: 60px;
+}
+
+.fire {
+  transition: transform 0.2s;
+}
+
+.fire:hover {
+  transform: scale(0.8);
+}
+
+.human1 {
+  position: absolute;
+  margin-top: 3250px;
+  margin-left: 370px;
+  transform: scale(0.65);
+  width: 60px;
+  height: 60px;
+}
+
+.human1:hover {
+  transform: rotate(-20deg);
+}
+
+.human2 {
+  position: absolute;
+  margin-top: 3250px;
+  margin-left: 910px;
+  transform: scale(0.65);
+  width: 60px;
+  height: 60px;
+}
+
+.human2:hover {
+  transform: rotate(20deg);
+}
+
+.me {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  margin-top: 3650px;
+  margin-left: 145px;
+  font-size: 65px;
+  color: white;
+  font-family: exterior-light;
+}
